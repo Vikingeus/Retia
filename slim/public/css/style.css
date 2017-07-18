@@ -1,0 +1,85 @@
+/*google fonts*/
+@import 'https://fonts.googleapis.com/css?family=IM+Fell+English|IM+Fell+English+SC';
+body {
+    background: url("../img/bg2.jpg") center top fixed #000;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+red {
+    color: darkred;
+}
+.header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+#menu ul {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+#menu ul a li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+#menu ul a li svg {
+    margin-bottom: -10px;
+    width: 40px;
+    vertical-align: center;
+}
+#menu ul a:hover li svg path#svg-menu{
+    fill: darkred;
+}
+#menu ul a {
+    color: white;
+    font-size: 40px;
+    font-family: 'IM Fell English SC', serif;
+    text-decoration: none;
+}
+#menu ul a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+}
+#footer {
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+#footer a {
+    color: white;
+}
+#slider {
+    width: 1000px;
+    margin: 0 auto;
+}
+#slider article h1 {
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+#slider article h1 small {
+    color: #aaa;
+    font-size: 20px;
+}
+#slider article p {
+    text-align: left;
+}
+#slider article p a {
+    color: white;
+}

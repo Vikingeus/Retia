@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: font;
+	src: url('font.ttf');
+}
+#fit {
+	width: 900px;
+	margin: 0px auto;
+}
+#brown {
+	background: url("../img/bg.jpg") repeat;
+	width: 100%;
+	
+}
+body {
+	margin: 0px;
+	background: #311814;
+	color: #f9f2d6;
+	font-family: font;
+}
+h1 {
+	font-family: font;
+	font-size: 48pt;
+}
+#head {
+	width: 900px;
+	height: 423px;
+	background: url("../img/bg-head.png");
+}
+#menu {
+	width: 200px;
+	float: left;
+	color: #311814;
+}
+#menu_wrapper {
+	width: 150px;
+	margin: 0px auto;
+}
+#body {
+	width: 750px;
+	float: left;
+	color: #311814;
+	margin-left: 200px;
+	margin-top: -400px;
+}
+#container {
+  background: url("../img/bg_body.png") repeat-y;
+  overflow: hidden
+}
+#foot {
+	width: 900px;
+	height: 40px;
+	background: url("../img/bg-foot.png");
+	float: left;
+	color: #311814;
+}
+#cpr {
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+
+/* Menu buttons */
+a {
+	width: 200px;
+	height:	35px;
+	margin-bottom: 25px;
+}
+.button {
+	width: 200px;
+	height:	35px;
+	-webkit-transition: 0.6s ease;
+	margin-bottom: 25px;
+}
+#o_nas {
+	background: url("../img/o_nas.png");
+}
+#o_nas:hover {
+	background: url("../img/o_nas_h.png");
+}
+#co_nabizime {
+	background: url("../img/co_nabizime.png");
+}
+#co_nabizime:hover {
+	background: url("../img/co_nabizime_h.png");
+}
+#nase_kava {
+	background: url("../img/nase_kava.png");
+}
+#nase_kava:hover {
+	background: url("../img/nase_kava_h.png");
+}
+#akce {
+	background: url("../img/akce.png");
+}
+#akce:hover {
+	background: url("../img/akce_h.png");
+}
+#fotogalerie {
+	background: url("../img/fotogalerie.png");
+}
+#fotogalerie:hover {
+	background: url("../img/fotogalerie_h.png");
+}
+#vase_vzkazy {
+	background: url("../img/vase_vzkazy.png");
+}
+#vase_vzkazy:hover {
+	background: url("../img/vase_vzkazy_h.png");
+}
+#kontakty {
+	background: url("../img/kontakty.png");
+}
+#kontakty:hover {
+	background: url("../img/kontakty_h.png");
+}

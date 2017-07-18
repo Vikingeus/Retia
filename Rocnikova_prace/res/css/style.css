@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Droid+Serif:400,700,400italic,700italic);
+@font-face {
+    font-family: fontk;
+    src: url("StillTime.ttf");
+}
+@font-face {
+    font-family: fonti;
+    src: url("ArgBrujS.ttf");
+}
+@font-face {
+    font-family: fontj;
+    src: url("RINGM.TTF");
+}
+body {
+    background: url("../image/bg2.png") top center repeat-y;
+    background-size: 100%;
+    font-family: 'Shadows Into Light', cursive;
+  }
+#size {
+   top:0px;
+}
+#head {
+    background: url("../image/head.png") no-repeat top center;
+    width: 100%;
+    height: 750px;
+    margin-top: 0px;
+  }
+#link {
+    width: 950px;
+    margin: 0px auto;
+    padding-top: 350px;
+  }
+#left {
+    float: left;
+    width: 400px;
+    height: 250px;
+    background: url("../image/pic1.png");
+    background-size: 100%;
+  }
+#right {
+    float: right;
+    width: 400px;
+    height: 250px;
+    background: url("../image/pic2.png");
+    background-size: 100%;
+  }
+#right,#left {
+    -webkit-transition: 1s ease-in-out;
+    border: 1px darkred solid;
+  }
+#left:hover {
+    background: url("../image/pic1-h.png");
+    background-size: 100%;
+  }
+#right:hover {
+    background: url("../image/pic2-h.png");
+    background-size: 100%;
+  }
+  #wrap {
+      width: 1200px;
+      margin: 0px auto;
+      margin-top: -370px;
+  }
+  #body {
+      background: url("../image/bg-cont.png");
+      width: 1200px;
+  }
+  pre {
+      margin-top: -180px;
+      margin-bottom: -50px;
+      font-family: fontk, monospace;
+      font-size: 45px;
+  }
+  #menu {
+      background: url("../image/menu.png");
+      width: 1200px;
+      height: 100px;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+  }
+  #menu li{
+      display:inline;
+  }
+  #menu a {
+      font-family: fontj;
+      color: grey;
+      text-decoration: none;
+      font-size: 35px;
+      display:inline-block;
+      text-shadow: 1px 10px 5px #000;
+      padding:20px;
+      margin-top: 20px;
+      -webkit-transition: ease-in-out 1s;
+  }
+  #menu a:hover {
+      color: darkred;
+  }
+  #cpr {
+      width: 300px;
+      font-size: 20px;
+      font-family: 'Droid Serif', serif;
+      margin: 0px auto;
+      text-align: center;
+      margin-bottom: -250px;
+      margin-top: 250px;
+      position: relative;
+  }
+  #intro {
+      font-family: fontk;
+      font-size: 25px;
+      width: 300px;
+      height: 400px;
+      position: absolute;
+      color: red;
+      z-index: -1;
+      top: 650px;
+      left: 150px;
+      transform: rotate(-20deg);
+  }
+  #content a {
+      font-size: 45px;
+      font-family: fontj;
+      color: black; 
+      
+  }
+  #box {
+      font-family: fontj;
+      position: relative;
+      display: block;
+      font-size: 25px;
+      margin-bottom: 50px;
+      width: 700px;
+  }
+  #author {
+      font-size: 12px;
+      float: right;
+  }

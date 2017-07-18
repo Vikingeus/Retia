@@ -1,0 +1,9 @@
+img {
+	height: 250px;
+	border: #000 3px solid;
+	-webkit-transition: 0.6s ease;
+	margin: 5px;
+}
+img:hover {
+	border: #ddd 3px solid;
+}
